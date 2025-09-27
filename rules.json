@@ -1,0 +1,47 @@
+{
+  "predicate": "Any",
+  "rules": [
+    {
+      "field": "from",
+      "predicate": "contains",
+      "value": "noreply@",
+      "actions": ["mark_read"]
+    },
+    {
+      "field": "subject",
+      "predicate": "contains",
+      "value": "Invoice",
+      "actions": ["move"]
+    },
+    {
+      "field": "message",
+      "predicate": "does_not_contain",
+      "value": "Thank you",
+      "actions": ["mark_unread"]
+    },
+    {
+      "field": "subject",
+      "predicate": "equals",
+      "value": "Important Meeting",
+      "actions": ["mark_read", "move"]
+    },
+    {
+      "field": "from",
+      "predicate": "does_not_equal",
+      "value": "boss@company.com",
+      "actions": ["mark_unread"]
+    },
+    {
+      "field": "received_date",
+      "predicate": "less_than_days",
+      "value": 7,
+      "actions": ["mark_read"]
+    },
+    {
+      "field": "received_date",
+      "predicate": "greater_than_days",
+      "value": 30,
+      "actions": ["move"]
+    }
+  ]
+}
