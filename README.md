@@ -36,5 +36,11 @@ This is a standalone Python backend script that integrates with the **Gmail API*
 
 ### 2. Process emails based on rules
 ```python process_rules.py```
+# Gmail Automation Project
+
+You can access the demonstration video and the presentation, through the following Google Drive link:
+
+👉 [Gmail Automation Project Files](https://drive.google.com/drive/folders/16PKT65asEvmFDfnx8XW5h_lcAtE2mx_d?usp=drive_link)
+
 
 
