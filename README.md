@@ -27,13 +27,15 @@ This is a standalone Python backend script that integrates with the **Gmail API*
 1. Clone the repository (or copy the project files).  
 2. Install dependencies using:
 
-
+# Install dependencies
 pip install -r requirements.txt
-## Running the Application
 
-1. **Fetch and save emails:**
+# Running the Application
 
+# 1. Fetch and save emails
+python main.py
 
- main.py
- process_rules.py
+# 2. Process emails based on rules
+python process_rules.py
+
 
