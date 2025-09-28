@@ -31,10 +31,10 @@ This is a standalone Python backend script that integrates with the **Gmail API*
 
 # Running the Application
 
-# 1. Fetch and save emails
+### 1. Fetch and save emails
 ```python main.py```
 
-# 2. Process emails based on rules
+### 2. Process emails based on rules
 ```python process_rules.py```
 
 
