@@ -5,7 +5,7 @@ Save them in a SQLite database and CSV file
 Process them based on custom rules (like mark read/unread or move message)
 
 
-The project contains the following files: 
+The project contains the following files:  
 
 1.main.py: The main entry point of the application.
 2.gmail_service.py: Handles authentication and interaction with Gmail's API.
