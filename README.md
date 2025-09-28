@@ -29,3 +29,11 @@ This is a standalone Python backend script that integrates with the **Gmail API*
 
 ```bash
 pip install -r requirements.txt
+## Running the Application
+
+1. **Fetch and save emails:**
+
+```bash
+ main.py
+ process_rules.py
+
