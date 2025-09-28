@@ -8,23 +8,21 @@ This is a standalone Python backend script that integrates with the **Gmail API*
 
 ---
 
-## **Project Structure**
+## Project Files
 
-| File | Description |
-|------|-------------|
-| `main.py` | The main entry point of the application. |
-| `gmail_service.py` | Handles authentication and interaction with Gmail's API. |
-| `database.py` | Manages database operations for storing and retrieving email data. |
-| `process_rules.py` | Contains logic for processing emails based on predefined rules. |
-| `rules.json` | A JSON file defining the rules for email processing. |
-| `emails.db` | SQLite database file storing email information. |
-| `emails.csv` | CSV file containing email data. |
-| `credentials.json` | OAuth 2.0 credentials for accessing Gmail API. |
-| `token.pickle` | Stores the user's access and refresh tokens for Gmail API authentication. |
+- `main.py` – The main entry point of the application.  
+- `gmail_service.py` – Handles authentication and interaction with Gmail's API.  
+- `database.py` – Manages database operations for storing and retrieving email data.  
+- `process_rules.py` – Contains logic for processing emails based on predefined rules.  
+- `rules.json` – A JSON file defining the rules for email processing.  
+- `emails.db` – SQLite database file storing email information.  
+- `emails.csv` – CSV file containing email data.  
+- `credentials.json` – OAuth 2.0 credentials for accessing Gmail API.  
+- `token.pickle` – Stores the user's access and refresh tokens for Gmail API authentication.  
 
 ---
 
-## **Installation**
+## Installation
 
 1. Clone the repository (or copy the project files).  
 2. Install dependencies using:
