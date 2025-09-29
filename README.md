@@ -42,6 +42,9 @@ You can access the demonstration video and the presentation, through the followi
 
 👉 [Gmail Automation Project Files](https://drive.google.com/drive/folders/16PKT65asEvmFDfnx8XW5h_lcAtE2mx_d?usp=drive_link)
 
+
+
+
 > **IMPORTANT — credentials.json (DUMMY DATA)**
 >
 > The `credentials.json` file included here contains **dummy placeholder values only** and must be **replaced** with your own OAuth credentials downloaded from Google Cloud Console.  
