@@ -11,19 +11,19 @@
       "field": "subject",
       "predicate": "contains",
       "value": "Invoice",
-      "actions": ["move"]
+      "actions": ["move:Label_123"]  
     },
     {
       "field": "message",
       "predicate": "does_not_contain",
       "value": "Thank you",
-      "actions": ["mark_unread"]
+      "actions": ["mark_read"]
     },
     {
       "field": "subject",
       "predicate": "equals",
       "value": "Important Meeting",
-      "actions": ["mark_read", "move"]
+      "actions": ["mark_unread", "move:Label_456"]  
     },
     {
       "field": "from",
@@ -41,7 +41,7 @@
       "field": "received_date",
       "predicate": "greater_than_days",
       "value": 30,
-      "actions": ["move"]
+      "actions": ["move:Label_789"]  
     }
   ]
 }
